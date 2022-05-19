@@ -3,16 +3,58 @@ title: "Estimating conervation value for birds of forest certification"
 subtitle: 
 author: "Dr. Andrew Crosby, MSc, PhD, non-Jedi"
 institute: "Boreal Avian Modelling Project : Projet de modélisation aviaire boréal"
-date: "2022/05/17 (updated: `r Sys.Date()`)"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
 output:
   xaringan::moon_reader:
     lib_dir: libs
+    css: bam-theme.css
+    includes: 
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
+
+
 ---
 
 
+```{r, echo = FALSE, out.width = '90%', fig.align='right'}
+knitr::include_graphics("images/sfi-cv-logos.png")
+```
 
+# [SFI Conservation Grants Program](https://forests.org/conservationgrants/)
+
+### Research to inform sustainable forest mangement
+
+---
+class: left 
+
+# BAM's Conservation Grant Goals
+
+1. Develop robust measures of conservation value 
+
+2. Foster collaborative partnerships 
+
+3. Expand our avian modeling tools 
+
+```{r, echo = FALSE, out.width = '20%', fig.align='bottom', fig.align='center'}
+knitr::include_graphics("images/sfi-grant-logo.jpg")
+```
+
+---
+class: center 
+
+# Defining Conservation Value 
+ 
+**Representation:**  
+[BEACONS method](https://prvernier.shinyapps.io/consvalue/) 
+
+**Diversity Contribution:**  
+[Contribution to regional species richness](https://doi.org/10.1016/j.baae.2006.06.004) 
+
+**Conservation Scores:**  
+Sum [PIF Avian Conservation Assessment scores](https://pif.birdconservancy.org/avian-conservation-assessment-database/) 
+
+---
 
