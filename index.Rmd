@@ -1,13 +1,13 @@
 ---
 title: "Estimating conervation value for birds of forest certification"
 subtitle: 
-author: "Dr. Andrew Crosby, MSc, PhD, non-Jedi"
+author: "Andrew D. Crosby"
 institute: "Boreal Avian Modelling Project : Projet de modélisation aviaire boréal"
 date: '`r format(Sys.time(), "%d %B, %Y")`'
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: bam-theme.css
+    css: bam-sfi-theme.css
     includes: 
     nature:
       highlightStyle: github
